@@ -5,9 +5,9 @@ var blessed = require('blessed')
              , fullUnicode: true
              , warnings: true
              })
-  , textarea = texty.textarea({  
+  , textarea = texty.textarea({
                  parent: screen
-               , style: { 
+               , style: {
                    bg: "blue"
                  , fg: "white" }
                , height: 3
@@ -16,7 +16,7 @@ var blessed = require('blessed')
                , left: 'center'
                , tags: true
                });
-    
+
 screen.render()
 
 screen.key('q', function() {

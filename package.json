@@ -16,6 +16,7 @@
     "blessed": "0.x"
   },
   "dependencies": {
-    "blessed": "^0.1.81"
+    "blessed": "^0.1.81",
+    "npm": "^5.8.0"
   }
 }
