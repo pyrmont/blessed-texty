@@ -10,8 +10,8 @@ var blessed = require('blessed')
                , style: {
                    bg: "blue"
                  , fg: "white" }
-               , height: 'half'
-               , width: 'half'
+               , height: 3
+               , width: 10
                , top: 'center'
                , left: 'center'
                , tags: true
