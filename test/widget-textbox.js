@@ -8,7 +8,7 @@ screen = blessed.screen({
   warnings: true
 });
 
-var box = texty.textarea({
+var box = texty.textbox({
   parent: screen,
   // Possibly support:
   // align: 'center',
