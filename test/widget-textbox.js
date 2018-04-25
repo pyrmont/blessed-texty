@@ -3,7 +3,7 @@ var blessed = require('blessed')
   , screen;
 
 screen = blessed.screen({
-  dump: __dirname + '/../logs/textbox.log',
+  dump: __dirname + '/../log/textbox.log',
   fullUnicode: true,
   warnings: true
 });
